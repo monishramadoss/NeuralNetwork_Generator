@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "nn_gen", "nn_gen\nn_gen.pyp
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "parameter_optimization", "parameter_optimization\parameter_optimization.pyproj", "{3C294996-4245-4BCE-AC53-2528139DBBAF}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "neat", "neat\neat.pyproj", "{24530F4C-13E5-4270-83AB-ACEBEFD754B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,8 @@ Global
 		{70556D3A-8A9B-4047-965B-DCD87DA83E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C294996-4245-4BCE-AC53-2528139DBBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3C294996-4245-4BCE-AC53-2528139DBBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24530F4C-13E5-4270-83AB-ACEBEFD754B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24530F4C-13E5-4270-83AB-ACEBEFD754B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
