@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3c294996-4245-4bce-ac53-2528139dbbaf</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>parameter_optimization.py</StartupFile>
+    <StartupFile>neat_app.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,18 @@
     <Compile Include="model.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="neat_app.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="parameter_optimization.py" />
+    <Compile Include="visualize.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config-feedforward.txt">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
